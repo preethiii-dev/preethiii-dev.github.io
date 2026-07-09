@@ -27,5 +27,5 @@ Personal portfolio showcasing my skills, projects and resume.
 
 ## Contact
 
-LinkedIn:
-GitHub:
+LinkedIn:https://linkedin.com/in/preethiii
+GitHub:https://github.com/preethiii-dev/preethiii-dev.github.io
