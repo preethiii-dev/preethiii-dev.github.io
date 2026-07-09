@@ -4,7 +4,7 @@
 🎓 Computer Science Engineering Student
 
 💻 Aspiring Software Developer interested in:
-- Frontend Development
+- Full Stack Development
 - Data Structures & Algorithms
 - Artificial Intelligence
 
@@ -21,7 +21,7 @@ Personal portfolio showcasing my skills, projects and resume.
 
 ## Currently Learning
 
-- JavaScript
+- MERN STACK
 - DSA with C++
 - AI/ML fundamentals
 
