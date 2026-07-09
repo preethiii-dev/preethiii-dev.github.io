@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CodeSense AI</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HERO -->
+
+    <header class="hero">
+
+        <div class="logo">
+            ✨
+        </div>
+
+        <h1>CodeSense AI</h1>
+
+        <p>
+            Understand code with AI-powered explanations.
+            Designed for students and developers.
+        </p>
+
+    </header>
+
+
+    <!-- INPUT CARD -->
+
+    <div class="card">
+
+        <div class="section-title">
+
+            <span>🌐</span>
+            <h2>Programming Language</h2>
+
+        </div>
+
+        <select id="language">
+
+            <option>Auto Detect</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>C++</option>
+            <option>Java</option>
+            <option>C</option>
+            <option>HTML</option>
+            <option>CSS</option>
+
+        </select>
+
+    </div>
+
+
+    <!-- CODE EDITOR -->
+
+    <div class="card">
+
+        <div class="section-title">
+
+            <span>💻</span>
+
+            <h2>Your Code</h2>
+
+        </div>
+
+        <textarea
+            id="codeInput"
+            placeholder="// Paste your code here..."
+        ></textarea>
+
+        <div class="editor-footer">
+
+            <span id="charCount">
+                0 Characters
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- BUTTON -->
+
+    <button id="explainBtn">
+
+        ✨ Explain Code
+
+    </button>
+
+
+    <!-- OUTPUT -->
+
+    <div class="card">
+
+        <div class="output-header">
+
+            <div class="section-title">
+
+                <span>🤖</span>
+
+                <h2>AI Explanation</h2>
+
+            </div>
+
+            <button id="copyBtn">
+
+                📋 Copy
+
+            </button>
+
+        </div>
+
+        <div class="output">
+
+            <p id="result">
+
+                Waiting for your code...
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- EXAMPLES -->
+
+    <div class="card">
+
+        <div class="section-title">
+
+            <span>💡</span>
+
+            <h2>Quick Examples</h2>
+
+        </div>
+
+        <div class="examples">
+
+            <button class="example-btn">
+                Hello World
+            </button>
+
+            <button class="example-btn">
+                Bubble Sort
+            </button>
+
+            <button class="example-btn">
+                Binary Search
+            </button>
+
+            <button class="example-btn">
+                Linked List
+            </button>
+
+            <button class="example-btn">
+                Factorial
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+
+            Built with HTML • CSS • JavaScript
+
+        </p>
+
+        <small>
+
+            🚧 AI Integration in Progress
+
+        </small>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
