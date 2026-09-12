@@ -1,339 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Preethi Portfolio</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-<style>
-    body {
-        font-family: 'Poppins', sans-serif;
-        margin: 0;
-        background: #f8f9fb;
-        color: #444;
-    }
-
-    header {
-        text-align: center;
-        padding: 50px 20px;
-        background: linear-gradient(to right, #ffe4e1, #fff0f5);
-    }
-
-    header h1 {
-        margin-bottom: 5px;
-        font-size: 32px;
-    }
-
-    header p {
-        color: #777;
-        font-size: 16px;
-    }
-
-    .profile-pic {
-        width: 140px;
-        height: 140px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-top: 20px;
-        border: 4px solid white;
-        box-shadow: 0px 6px 18px rgba(0,0,0,0.2);
-    }
-
-    nav {
-        background: white;
-        text-align: center;
-        padding: 15px;
-        box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
-        position: sticky;
-        top: 0;
-    }
-
-    nav a {
-        margin: 0 20px;
-        text-decoration: none;
-        color: #555;
-        font-weight: 500;
-        transition: 0.3s;
-    }
-
-    nav a:hover {
-        color: #ff7f7f;
-    }
-
-    section {
-        max-width: 900px;
-        margin: 30px auto;
-        padding: 35px;
-        background: white;
-        border-radius: 15px;
-        box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
-    }
-
-    h2 {
-        color: #ff7f7f;
-        margin-bottom: 20px;
-    }
-
-    /* About */
-    #about p {
-        margin: 8px 0;
-        line-height: 1.6;
-    }
-
-    /* Skills */
-    ul {
-        list-style-type: disc;
-        padding-left: 25px;
-    }
-
-    li {
-        margin: 8px 0;
-    }
-
-    /* Projects */
-    #projects p {
-        margin-bottom: 15px;
-        line-height: 1.6;
-    }
-
-    /* Career Objective */
-    #career p {
-        line-height: 1.6;
-    }
-
-    button {
-        margin-top: 15px;
-        padding: 12px 25px;
-        background: #ff7f7f;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        font-weight: 500;
-        transition: 0.3s;
-    }
-
-    button:hover {
-        background: #ff4d4d;
-    }
-
-    a {
-        color: #ff7f7f;
-        text-decoration: none;
-        font-weight: 500;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    /* Contact spacing */
-    #contact p {
-        margin: 10px 0;
-    }
-
-    footer {
-        text-align: center;
-        padding: 20px;
-        background: #ffe4e1;
-        margin-top: 30px;
-        font-size: 14px;
-        color: #666;
-    }
-</style>
-</head>
-
-<body>
-
-<header>
-    <h1>Preethi</h1>
-
-    <p>
-        Computer Science Student<br>
-        Building a strong foundation in DSA and development while working
-        toward creating AI-powered applications.
-    </p>
-
-    <!-- Make sure this filename matches the actual file in GitHub -->
-    <img src="myphoto.jpg" alt="Profile Photo" class="profile-pic">
-</header>
-
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#career">Career Objective</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-
-<section id="about">
-    <h2>About Me</h2>
-
-    <p>
-        I'm Preethi, a second-year Computer Science and Engineering student
-        with a strong interest in software development and problem-solving.
-        I'm currently building a solid foundation in frontend development
-        using HTML, CSS, JavaScript, Git, and GitHub, while consistently
-        improving my understanding of Data Structures & Algorithms.
-        Alongside web development, I'm working toward the full stack because
-        I believe strong software engineering fundamentals are essential
-        before moving into AI and Machine Learning. My long term goal is to
-        build intelligent, real world applications that combine scalable
-        software with AI. I enjoy learning by building projects,
-        understanding how they work under the hood, and continuously
-        improving them based on feedback and new technologies.
-    </p>
-</section>
-
-
-<section id="skills">
-    <h2>Languages</h2>
-
-    <ul>
-        <li>C++</li>
-        <li>Python</li>
-        <li>C</li>
-    </ul>
-
-
-    <h2>Frontend Development</h2>
-
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-    </ul>
-
-
-    <h2>Tools</h2>
-
-    <ul>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>VS Code</li>
-        <li>Canva</li>
-    </ul>
-
-
-    <h2>Currently Learning</h2>
-
-    <ul>
-        <li>MERN Stack</li>
-        <li>Responsive Web Design</li>
-    </ul>
-
-</section>
-
-
-<section id="projects">
-    <h2>Projects</h2>
-
-
-    <!-- Portfolio Project -->
-    <p>
-        <b>Portfolio Website:</b>
-        A personal website created using HTML, CSS, and JavaScript
-        to showcase my skills and projects.
-    </p>
-
-    <p>
-        <a href="https://preethiii-dev.github.io" target="_blank">
-            View Portfolio Website
-        </a>
-    </p>
-
-
-    <!-- CodeSense Project -->
-    <p>
-        <b>CodeSense:</b>
-        An AI-powered code explanation tool I'm currently building.
-        The project is designed to help beginners understand code by
-        providing simple, natural-language explanations using an LLM API.
-        The current version includes the frontend interface, and I'm
-        actively working on integrating the AI backend.
-    </p>
-
-    <button onclick="openproject()">
-        Click for CodeSense
-    </button>
-
-
-    <!-- Seat Allocator Project -->
-    <p>
-        <b>Student Seat & Room Allocator:</b>
-        An AI-assisted web application designed to automate student
-        seat and room allocation using student data. The system helps
-        organize students into rooms and seats with sorting and
-        allocation features.
-    </p>
-
-    <button onclick="openSeatAllocator()">
-        Click for Seat Allocator
-    </button>
-
-</section>
-
-
-<section id="career">
-    <h2>Career Objective</h2>
-
-    <p>
-        I'm looking for an internship where I can apply my current skills,
-        learn from experienced developers, and gain hands-on experience by
-        working on real projects. I want to strengthen my software
-        development fundamentals and build the technical foundation that
-        will support my long term goal of developing intelligent,
-        real world software solutions.
-    </p>
-</section>
-
-
-<section id="contact">
-    <h2>Contact</h2>
-
-    <p>
-        Email: preethiwho@gmail.com
-    </p>
-
-    <p>
-        LinkedIn:
-        <a href="https://linkedin.com/in/preethiii" target="_blank">
-            https://linkedin.com/in/preethiii
-        </a>
-    </p>
-
-    <p>
-        GitHub:
-        <a href="https://github.com/preethiii-dev/preethiii-dev.github.io" target="_blank">
-            https://github.com/preethiii-dev/preethiii-dev.github.io
-        </a>
-    </p>
-
-    <a href="resume.final.pdf" download>
-        <button>Download Resume</button>
-    </a>
-</section>
-
-
-<footer>
-    <p>Thank you</p>
-</footer>
-
-
-<script>
-
-function openproject() {
-    window.location.href = "codesense/code-explainer.html";
-}
-
-function openSeatAllocator() {
-    window.location.href = "seat.allocator/";
-}
-
-</script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seat & Room Allocator</title>
+    <meta name="description" content="Automatically assign room numbers and seat numbers to students based on uploaded student data." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Toast Container -->
+    <div id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay hidden">
+      <div class="loading-spinner">
+        <div class="spinner"></div>
+        <p>Processing allocations...</p>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="header-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <path d="M3 9h18M9 21V9"/>
+            </svg>
+          </div>
+          <div>
+            <h1 class="header-title">Seat &amp; Room Allocator</h1>
+            <p class="header-subtitle">Automatically assign rooms and seats to students from CSV data</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+
+        <!-- Step 1: Student Data Input -->
+        <section class="card" id="step-input">
+          <div class="card-header">
+            <div class="step-badge">Step 1</div>
+            <h2 class="card-title">Student Data</h2>
+            <p class="card-desc">Upload a CSV file or manually enter student details below.</p>
+          </div>
+
+          <!-- Drag & Drop Upload Area -->
+          <div class="upload-area" id="upload-area">
+            <div class="upload-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="17 8 12 3 7 8"/>
+                <line x1="12" y1="3" x2="12" y2="15"/>
+              </svg>
+            </div>
+            <p class="upload-title">Drag &amp; drop your CSV file here</p>
+            <p class="upload-subtitle">or click to browse · supports .csv files only</p>
+            <input type="file" id="csv-file-input" accept=".csv" class="file-input" />
+            <button class="btn btn-outline btn-sm" onclick="document.getElementById('csv-file-input').click()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              Choose File
+            </button>
+          </div>
+
+          <!-- File Info -->
+          <div id="file-info" class="file-info hidden">
+            <div class="file-info-content">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              <span id="file-name-display"></span>
+              <button class="btn-icon-sm" id="remove-file-btn" title="Remove file" aria-label="Remove uploaded file">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div class="divider"><span>or enter manually</span></div>
+
+          <!-- Manual Input -->
+          <div class="manual-input-section">
+            <label class="form-label" for="manual-input">
+              Paste student data (one per line: <code>RegisterNumber,StudentName</code>)
+            </label>
+            <textarea
+              id="manual-input"
+              class="textarea"
+              rows="5"
+              placeholder="22CS001,Alice Johnson&#10;22CS002,Bob Smith&#10;22CS003,Charlie Brown"
+            ></textarea>
+            <p class="input-hint">First line can optionally be a header row (e.g. "Register Number,Student Name")</p>
+          </div>
+
+          <!-- Sample CSV download link -->
+          <div class="sample-download">
+            <a href="sample_students.csv" download class="link-subtle">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download sample CSV
+            </a>
+          </div>
+        </section>
+
+        <!-- Step 2: Configuration -->
+        <section class="card" id="step-config">
+          <div class="card-header">
+            <div class="step-badge">Step 2</div>
+            <h2 class="card-title">Configuration</h2>
+            <p class="card-desc">Set sorting preference and room capacity before allocating.</p>
+          </div>
+
+          <div class="config-grid">
+            <!-- Sorting -->
+            <div class="form-group">
+              <label class="form-label">Sort Students By</label>
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="sort-option" value="register" checked />
+                  <span class="radio-custom"></span>
+                  <span>Register Number</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="sort-option" value="name" />
+                  <span class="radio-custom"></span>
+                  <span>Student Name (A–Z)</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Room Capacity -->
+            <div class="form-group">
+              <label class="form-label" for="room-capacity">Seats per Room</label>
+              <div class="input-with-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <input type="number" id="room-capacity" class="input" value="30" min="1" max="500" placeholder="e.g. 30" />
+              </div>
+              <p class="input-hint">Room numbers will start from 101</p>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="action-buttons">
+            <button class="btn btn-primary" id="allocate-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              Allocate Seats
+            </button>
+            <button class="btn btn-danger" id="reset-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.36"/></svg>
+              Reset All
+            </button>
+          </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="card hidden" id="results-section">
+          <div class="card-header">
+            <div class="step-badge step-badge--success">Results</div>
+            <h2 class="card-title">Allocation Results</h2>
+          </div>
+
+          <!-- Stats -->
+          <div class="stats-grid" id="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon stat-icon--blue">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div class="stat-info">
+                <div class="stat-value" id="stat-students">0</div>
+                <div class="stat-label">Total Students</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon stat-icon--purple">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+              <div class="stat-info">
+                <div class="stat-value" id="stat-rooms">0</div>
+                <div class="stat-label">Rooms Created</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon stat-icon--green">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              </div>
+              <div class="stat-info">
+                <div class="stat-value" id="stat-seats">0</div>
+                <div class="stat-label">Seats Allocated</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Search & Download -->
+          <div class="table-controls">
+            <div class="search-wrapper">
+              <label for="search-input" class="sr-only">Search students</label>
+              <svg class="search-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input type="search" id="search-input" class="search-input" placeholder="Search by name or register number…" aria-label="Search students by name or register number" />
+            </div>
+            <button class="btn btn-success" id="download-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CSV
+            </button>
+          </div>
+
+          <p class="results-count" id="results-count"></p>
+
+          <!-- Table -->
+          <div class="table-wrapper">
+            <table class="table" id="results-table">
+              <thead>
+                <tr>
+                  <th>Register Number</th>
+                  <th>Student Name</th>
+                  <th>Room Number</th>
+                  <th>Seat Number</th>
+                </tr>
+              </thead>
+              <tbody id="results-tbody"></tbody>
+            </table>
+            <div class="empty-state hidden" id="empty-state">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <p>No results match your search.</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Seat &amp; Room Allocator · Built for educational institutions</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
